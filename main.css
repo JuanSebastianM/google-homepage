@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+  }
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links {
+      /*float: right;*/
+}
