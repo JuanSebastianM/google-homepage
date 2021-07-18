@@ -9,11 +9,45 @@ html {
     padding: 0;
 }
 header {
-    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
 }
-.input {
-    margin: 0;
+.logo-input-div {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    margin-left: 20px;
+}
+.logo-div {
+    display: flex;
+}
+.logo {
+    width: 6.5vw;
+    
+    align-self: center;
+}
+
+#search-box {
+    
+    margin-left: 50px;
+    width: 50vw;
+    height: 50px;
+    padding-left: 15px;
+    border-style: none;
+    box-shadow: 0px 1px 4px 0px rgb(80, 80, 80);
+    border-radius: 40px;
+}
+#search-box:hover {
+    box-shadow: 0px 2px 8px 1px rgb(80, 80, 80);
+
+}
+#search-box:focus {
+    outline: none;
+}
+
+.links-div {
+    margin-right: 20px;
+    background: orange;
 }
