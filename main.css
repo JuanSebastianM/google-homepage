@@ -14,6 +14,6 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.links {
-      /*float: right;*/
+.input {
+    margin: 0;
 }
