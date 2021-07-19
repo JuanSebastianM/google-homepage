@@ -48,11 +48,12 @@ header {
     top: 4.5%;
 }
 .input-icon {
-    color: rgb(37, 106, 255);
+    color: #1a73e8;
     padding: 10px;
 }
 
 #search-box {
+    color: rgba(0,0,0,.87);
     margin-left: 50px;
     width: 50vw;
     height: 50px;
@@ -84,7 +85,7 @@ header {
     height: 40px;
     width: 40px;
     color: #3c4043;
-    margin-right: 20px;
+    margin-right: 10px;
     border-radius: 20px;
 }
 .links:hover {
@@ -98,6 +99,7 @@ header {
 /*----Navbar begins here----*/
 nav {
     display: flex;
+    align-items: center;
     margin: 0 20px 0 180px;
     max-width: 60vw;
     font-size: 1.5em;
@@ -106,8 +108,8 @@ nav a {
     display: flex;
     align-items: center;
     color: rgb(110, 110, 110);
-    margin-right: 20px;
-    padding: 8px 0;
+    margin-right: 5px;
+    padding: 8px;
     border-bottom-style: solid;
     border-color: transparent;
 }
@@ -115,14 +117,23 @@ nav a {
     font-size: 17px;
     margin-right: 5px;
 }
-.all-section {
-    color: blue;
+nav a.section:focus {
+    color: #1a73e8;
     border-bottom-width: 3px;
     border-bottom-style: solid;
-    border-color: blue;
+    border-color: #1a73e8;
 }
-.tools-section {
-    margin-left: 140px;
+nav a.tools-section {
+    padding: 3px 10px;
+    margin-left: 120px;
+    border: 1px solid transparent;
+}
+nav a.tools-section:hover {
+    background: rgba(243, 242, 242, 0.7);
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: rgba(110, 110, 110, 0.2);
+    color: rgba(0,0,0,.87);
 }
 hr {
     opacity: 0.3;
