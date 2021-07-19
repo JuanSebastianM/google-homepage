@@ -58,12 +58,12 @@ header {
     height: 50px;
     padding: 0 95px 0 15px;
     border-style: none;
-    box-shadow: 0px 1px 4px 0px rgb(80, 80, 80);
+    box-shadow: 0px 1px 4px 0px rgb(177, 177, 177);
     border-radius: 40px;
     font-size: 1.6em;
 }
 #search-box:hover {
-    box-shadow: 0px 2px 8px 1px rgb(80, 80, 80);
+    box-shadow: 0px 1px 10px 0px rgb(177, 177, 177);
 
 }
 #search-box:focus {
@@ -77,7 +77,7 @@ header {
     height: 50px;
     width: 15vw;
 }
-.icons {
+.links {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,7 +87,7 @@ header {
     margin-right: 20px;
     border-radius: 20px;
 }
-.icons:hover {
+.links:hover {
     background: #eee;
 }
 .person-icon {
@@ -97,21 +97,32 @@ header {
 }
 /*----Navbar begins here----*/
 nav {
-    margin: 0 20px 10px 180px;
+    display: flex;
+    margin: 0 20px 0 180px;
     max-width: 60vw;
     font-size: 1.5em;
 }
 nav a {
+    display: flex;
+    align-items: center;
     color: rgb(110, 110, 110);
     margin-right: 20px;
+    padding: 8px 0;
+    border-bottom-style: solid;
+    border-color: transparent;
+}
+.icon {
+    font-size: 17px;
+    margin-right: 5px;
 }
 .all-section {
     color: blue;
+    border-bottom-width: 3px;
     border-bottom-style: solid;
-    padding-bottom: 8px;
+    border-color: blue;
 }
 .tools-section {
-    margin-left: 60px;
+    margin-left: 140px;
 }
 hr {
     opacity: 0.3;
