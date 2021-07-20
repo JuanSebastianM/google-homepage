@@ -16,6 +16,9 @@ a {
     text-decoration: none;
 }
 header {
+    position: sticky;
+    top: 0;
+    background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,12 +43,12 @@ header {
 .voice-icon {
     position: absolute;
     left: 55%;
-    top: 4.5%;
+    top: 30%;
 }
 .search-icon {
     position: absolute;
     left: 58%;
-    top: 4.5%;
+    top: 30%;
 }
 .input-icon {
     color: #1a73e8;
@@ -137,10 +140,6 @@ nav a.tools-section:hover {
 hr {
     opacity: 0.3;
 }
-.result {
-    margin-bottom: 30px;
-}
-
 .results-section {
     max-width: 40vw;
     margin-left: 180px;
@@ -150,6 +149,9 @@ hr {
     color: #70757a;
     margin: 10px 0 20px 0;
     font-size: .95em;
+}
+.result {
+    margin-bottom: 30px;
 }
 .result-link:hover .page-title {
     text-decoration: underline solid #1a0dab 2px; 
