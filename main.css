@@ -151,14 +151,15 @@ hr {
     margin: 10px 0 20px 0;
     font-size: .95em;
 }
-
 .result-link:hover .page-title {
     text-decoration: underline solid #1a0dab 2px; 
 }
-
 .page-link {
-    width: 380px;
+    width: 390px;
     color: #202124;
+}
+.special-link {
+    width: 230px;
 }
 .expand {
     float: right;
