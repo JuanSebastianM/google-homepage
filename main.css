@@ -106,7 +106,6 @@ nav {
 }
 nav a {
     display: flex;
-    align-items: center;
     color: rgb(110, 110, 110);
     margin-right: 15px;
     padding: 8px 0;
@@ -153,8 +152,14 @@ hr {
 .result-link:hover .page-title {
     text-decoration: underline solid #1a0dab 2px; 
 }
+
 .page-link {
+    width: 380px;
     color: #202124;
+}
+.expand {
+    float: right;
+    font-size: 17px;
 }
 .page-title {
     font-size: 1.2em;
