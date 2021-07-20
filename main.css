@@ -137,6 +137,9 @@ nav a.tools-section:hover {
 hr {
     opacity: 0.3;
 }
+.result {
+    margin-bottom: 30px;
+}
 
 .results-section {
     max-width: 40vw;
