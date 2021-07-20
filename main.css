@@ -42,12 +42,12 @@ header {
 }
 .voice-icon {
     position: absolute;
-    left: 55%;
+    left: 57%;
     top: 30%;
 }
 .search-icon {
     position: absolute;
-    left: 58%;
+    left: 60%;
     top: 30%;
 }
 .input-icon {
@@ -58,8 +58,8 @@ header {
 #search-box {
     color: rgba(0,0,0,.87);
     margin-left: 50px;
-    width: 50vw;
-    height: 50px;
+    width: 700px;
+    height: 45px;
     padding: 0 95px 0 15px;
     border-style: none;
     box-shadow: 0px 1px 4px 0px rgb(177, 177, 177);
@@ -127,7 +127,7 @@ nav a.section:focus {
 }
 nav a.tools-section {
     padding: 3px 10px;
-    margin-left: 120px;
+    margin-left: 160px;
     border: 1px solid transparent;
 }
 nav a.tools-section:hover {
@@ -141,7 +141,7 @@ hr {
     opacity: 0.3;
 }
 .results-section {
-    max-width: 40vw;
+    max-width: 47vw;
     margin-left: 180px;
     font-size: 1.5em;
 }
@@ -163,6 +163,9 @@ hr {
 .special-link {
     width: 230px;
 }
+.another-special {
+    width: 410px;
+}
 .expand {
     float: right;
     font-size: 17px;
@@ -177,4 +180,27 @@ hr {
 }
 .gray-text {
     color: #4d5156;
+}
+
+.suggestions-grid {
+    font-size: 1.6em;
+    max-width: 47vw;
+    margin: 20px 0 40px 180px;
+    display: grid;
+    grid-template-columns: 23vw 23vw;
+    grid-gap: 20px;
+}
+.suggestion {
+    display: flex;
+    background-color: #f1f3f4;
+    color: black;
+    padding: 15px 0;
+    border-radius: 40px;
+    justify-content: center;
+}
+.suggestion:hover {
+    text-decoration: underline;
+}
+.suggestion-icon {
+    font-size: 1.1em;
 }
