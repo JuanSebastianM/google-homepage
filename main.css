@@ -192,15 +192,25 @@ hr {
 }
 .suggestion {
     display: flex;
+    align-items: center;    
     background-color: #f1f3f4;
     color: black;
-    padding: 15px 0;
+    padding: 10px 0;
     border-radius: 40px;
-    justify-content: center;
 }
 .suggestion:hover {
     text-decoration: underline;
 }
-.suggestion-icon {
-    font-size: 1.1em;
+.icon-text-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.suggestion .icon-div .suggestion-icon {
+    padding: 0 15px 0 30px;
+    font-size: 1.4em;
+}
+.suggestion .text-div p {
+    padding: 0 20px 0 5px;
 }
