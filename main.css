@@ -140,9 +140,11 @@ nav a.tools-section:hover {
 hr {
     opacity: 0.3;
 }
-.results-section {
-    max-width: 47vw;
+main {
+    max-width: 630px;
     margin-left: 180px;
+}
+.results-section {
     font-size: 1.5em;
 }
 .amount-results {
@@ -184,33 +186,80 @@ hr {
 
 .suggestions-grid {
     font-size: 1.6em;
-    max-width: 47vw;
-    margin: 20px 0 40px 180px;
+    padding: 40px 0px;
     display: grid;
-    grid-template-columns: 23vw 23vw;
-    grid-gap: 20px;
+    grid-template-columns: 310px 310px;
+    grid-gap: 15px;
 }
 .suggestion {
     display: flex;
-    align-items: center;    
+    align-content: center;
     background-color: #f1f3f4;
     color: black;
-    padding: 10px 0;
+    height: 45px;
     border-radius: 40px;
 }
 .suggestion:hover {
     text-decoration: underline;
 }
-.icon-text-div {
+.suggestion .icon-text-div {
     display: flex;
     align-items: center;
-    width: 100%;
-    height: auto;
 }
 .suggestion .icon-div .suggestion-icon {
-    padding: 0 15px 0 30px;
-    font-size: 1.4em;
+    padding: 0 20px;
+    font-size: 1.3em;
 }
 .suggestion .text-div p {
-    padding: 0 20px 0 5px;
+    width: 210px; 
+}
+
+footer {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 1.4em;
+    background: #f1f3f4;
+}
+footer .footer-content {
+    max-width: 660px;
+    margin-left: 180px;
+    padding: 10px 0;
+}
+
+footer .location-div {
+    color: #70757a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .location-div .dash {
+    margin: 0 5px;
+}
+footer .location-div .exact-location {
+    display: flex;
+    align-items: center;
+    color: #3c4043;
+}
+footer .location-div .location-link a {
+    color: #70757a;
+}
+footer .location-div .exact-location .circle {
+    background: #70757a;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 100%;
+}
+footer .location-div .line-break {
+    background: #70757a;
+    margin: 0 10px;
+    width: 1px;
+    height: 25px;
+}
+footer .footer-links-div a {
+    color: #70757a;
+    margin-right: 20px;
+}
+footer .location-div .location-link a:hover ,footer a:hover {
+    color: #3c4043;
 }
